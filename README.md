@@ -15,3 +15,19 @@ CIFAR Performance (Logistic regression on indico imagefeatures):
 500   examples: 64% 
 1000  examples: 67%
 ```
+
+Usage
+-----
+
+```
+python model.py
+```
+
+In order to use indico's batch imagefeatures API, you'll also have to set your username and password in your `~/.indicorc` file.
+
+```
+[auth]
+username = example@example.com
+password = *************
+```
+
