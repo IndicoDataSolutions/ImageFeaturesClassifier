@@ -27,7 +27,6 @@ In order to use indico's batch imagefeatures API, you'll also have to set your u
 
 ```
 [auth]
-username = example@example.com
-password = *************
+api_key = "YOUR_API_KEY"
 ```
 
